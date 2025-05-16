@@ -8,14 +8,14 @@ int codigo1 = 26;
 char nome1[] = "Pernambuco"; 
 unsigned long int populacao1 = 9058931;
 float area1 = 98312;
-float pib1 = 28867.0;
+float PIB1 = 28867.0;
 int pontos_turisticos1 = 120;
 
     // Cálculo da densidade 1
 float densidade1 = populacao1 / area1;
 
     // Cálculo PIB per capita 1
-float pib_per_capita1 = pib1 / (float) populacao1;
+float pib_per_capita1 = PIB1 / (float) populacao1;
 
     // Super poder 1
 float super_poder1 = populacao1 + area1 + pib_per_capita1 + pontos_turisticos1 + (1.0 / densidade1);
@@ -28,7 +28,7 @@ printf("codigo: %d\n", codigo1);
 printf("nome: %s\n", nome1);
 printf("populacao: %lu\n", populacao1);
 printf("area: %.2f km²\n", area1);
-printf("pib: %.2f milhoes\n", pib1);
+printf("PIB: %.2f milhoes\n", PIB1);
 printf("pontos_turisticos: %d\n", pontos_turisticos1);
 printf("densidade populacional: %.2f hab/km²\n", densidade1);
 printf("pib_per_capita: %.8f milhoes/hab\n", pib_per_capita1);
@@ -42,14 +42,14 @@ int codigo2 = 21;
 char nome2[] = "Rio de Janeiro";
 unsigned long int populacao2 = 16055174;
 float area2 = 120.0;
-float pib2 = 359640.0;
+float PIB2 = 359640.0;
 int pontos_turisticos2 = 150;
 
     // Cálculo da densidade 2
 float densidade2 = populacao2 / area2;
 
     // Cálculo do PIB per capita 2
-float pib_per_capita2 = pib2 / (float) populacao2;
+float pib_per_capita2 = PIB2 / (float) populacao2;
 
     // Super poder 2
 float super_poder2 = populacao2 + area2 + pib_per_capita2 + pontos_turisticos2 + (1.0 / densidade2);
@@ -62,7 +62,7 @@ printf("codigo: %d\n", codigo2);
 printf("nome: %s\n", nome2);
 printf("populacao: %lu\n", populacao2);
 printf("area: %.2f km²\n", area2);
-printf("pib: %.2f milhoes\n", pib2);
+printf("PIB: %.2f milhoes\n", PIB2);
 printf("pontos_turisticos: %d\n", pontos_turisticos2);
 printf("densidade populacional: %.2f hab/km²\n", densidade2);
 printf("pib_per_capita: %.8f milhoes/hab\n", pib_per_capita2);
@@ -85,11 +85,11 @@ printf("super_poder: %.2f\n", super_poder2); printf ("\n");
 } else if (area1 = area2) {
     printf("Empate entre as cartas!\n");
     }
-    if (pib1 > pib2) {
-    printf("pib: carta %d\n", 1);
-} else if (pib2 > pib1) {
-    printf("pib: carta %d\n", 2);
-} else if (pib1 = pib2) {
+    if (PIB1 > PIB2) {
+    printf("PIB: carta %d\n", 1);
+} else if (PIB2 > PIB1) {
+    printf("PIB: carta %d\n", 2);
+} else if (PIB1 = PIB2) {
     printf("Empate entre as cartas!\n");
        }
     if (pontos_turisticos1 > pontos_turisticos2) {
