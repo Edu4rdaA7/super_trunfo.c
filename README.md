@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// fundamentos e técnicas avançadas (nível mestre)
 int main() {
     // Dados da carta 1 - Pernambuco
 char dados1 [] = "Carta 1";
@@ -67,7 +67,8 @@ printf("pontos_turisticos: %d\n", pontos_turisticos2);
 printf("densidade populacional: %.2f hab/km²\n", densidade2);
 printf("pib_per_capita: %.8f milhoes/hab\n", pib_per_capita2);
 printf("super_poder: %.2f\n", super_poder2); printf ("\n");
-    
+
+// desenvolvendo a logica do jogo (nível aventureiro) 
     //comparacao de cartas 
     printf ("resultado dos codigos"); 
               printf ("\n\n");
